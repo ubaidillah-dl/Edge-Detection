@@ -1,6 +1,5 @@
 import cv2 as cv
 import numpy as np
-from matplotlib import pyplot as plt
 
 def rescale_frame(frame,percent=75):
     width=int(frame.shape[1]* percent/100)
